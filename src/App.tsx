@@ -112,19 +112,6 @@ function App() {
         },
       })
 
-      gsap.from('.material-card', {
-        y: 50,
-        opacity: 0,
-        duration: 0.9,
-        stagger: 0.12,
-        ease: 'power3.out',
-        scrollTrigger: {
-          trigger: '.material-list',
-          start: 'top 80%',
-          toggleActions: 'play none none reverse',
-        },
-      })
-
       gsap.from('.philosophy-text', {
         y: 80,
         opacity: 0,
